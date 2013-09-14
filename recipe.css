@@ -1,61 +1,72 @@
 body {
-    padding-left: 11em;
+    padding-left: 2em;
     font-family: Verdana, Geneva, sans-serif;
     }
   ul.navbar {
+    list-style-type: none;
     position: absolute;
-    top: 2em;
-    left: 1em;
-    width: 9em }
+    top: 11em;
+    }
 
 h1 
 {font-family:Verdana, Geneva, sans-serif; 
-    font-size:18px; 
-    color:#666666;
+    font-size: 18px; 
+    color:#f2990b;
     align-content:center;
-
+}
+h1:before,h1:after {
+    content:"♦";
+    font-size:inherent;
 }
 h2 
 {font-family:Verdana, Geneva, sans-serif; 
-    font-size:16px; 
-    color:#666666;
+    font-size: 16px; 
+    color:#f2990b;
 }
 h3 
 {font-family:Verdana, Geneva, sans-serif; 
     font-size:14px; 
-    color:#666666;
+    color:#bf7a0c;
     
 }
 h4 
 {font-family:Verdana, Geneva, sans-serif; 
-    font-size:12px; 
-    color:#666666;
+    font-size: 12px; 
+    color:#bf7a0c;
 }
 p 
 {font-family:Arial, Helvetica, sans-serif; 
-    font-size:12px; 
+    font-size: 12px; 
     color:black;
 }
 ul 
-{font-family:Arial, Helvetica, sans-serif; 
-    font-size:14px; 
+{list-style-type: none;
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
     color:black;
+    display:inline
+    }
+ol 
+{font-family:Arial, Helvetica, sans-serif; 
+    font-size: 14px; 
+    color:black;
+   
 }
 .ingredient 
 {font-family:Arial, Helvetica, sans-serif; 
-    font-size:14px; 
+    font-size: 14px; 
     color:black; 
-    position:absolute; left:100px ;
+      width:85%;
+    display: inline-block; 
+
 }
 .quantity 
 {font-family:Arial, Helvetica, sans-serif; 
     font-size:14px; 
     color:black; 
-    position:11em;
-}
-.recipe
-{border-bottom: 1px; 
-    color: gray;
+    width:15%;
+    text-align:left;
+    display: inline-block;
 }
 a:link
 {
@@ -63,7 +74,7 @@ a:link
 }
 a:visited
 {
-    color:violet;
+    color:#bf7a0c;
 }
 a:hover
 {
