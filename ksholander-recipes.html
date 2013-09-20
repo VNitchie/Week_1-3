@@ -5,14 +5,16 @@
         <meta charset="utf-8">
                 <title>Kevin Scholander's favorite downhome recipes</title>
         <LINK rel="stylesheet" type="text/css"
-     href="recipe.css" title="Default Styles" media="screen">
+     href="recipe.css" title="Default Styles" media="screen" itemtype="http://schema.org/Recipe">
     </head>
 <body>
-    <div class="recipe" id="index">
-    <h2 class="TOC">
+ <div class="recipe" id="index">
+    <h2 class="TOC" itemprop="recipe" accountablePerson="Kevin Sholander">
         mmmmMenu
         </h2>
-    <ul>
+     <hr/>
+    <nav>
+       <ul>
       <li><a href="#recipe1">
           Garlic Cheese Grits
           </a>
@@ -28,15 +30,21 @@
           </a>
         </li>
     </ul>
+</nav>
 </div>
 
 <hr/>
-
+<div id="Recipe">
+<div class="RecipeCard">
+<div id="RecipeTitle">
 <a id="recipe1">
 <h1>
     Garlic Cheese Grits 
     </h1>
+    <img id="foodpic" class="appetizer" src="img/GarlicCheeseGrits.jpg">
     </a>
+ </div>
+ <div class="ingredientlist">   
 <ul> 
 <li>
     <span class="quantity">6 cups</span><span class="ingredient">cold water</span>
@@ -48,7 +56,7 @@
     <span class="quantity">1 1/2 cups</span><span class="ingredient">hominy grits</span>
     </li>
 <li>
-    <span class="quantity">1 tbs.</span><span class="ingredient">ellow onion, minced</span>
+    <span class="quantity">1 tbs.</span><span class="ingredient">yellow onion, minced</span>
     </li>
 <li>
     <span class="quantity">1/4 cup</span><span class="ingredient">milk</span>
@@ -63,6 +71,8 @@
     <span class="quantity">1/2 tsp.</span><span class="ingredient">salt</span>
     </li>
 </ul> 
+ </div>
+<div id="RecipeInstr">    
 <ol>
     <li>
         Preheat oven to 350&deg;. 
@@ -83,13 +93,21 @@
     <p>
         <em><strong>Makes 10 big servings.</strong></em>
     </p>
-
+    </div>
+    </div>
+    </div> 
 <hr/>
-<a id="recipe2">
+<div id="Recipe">
+<div class="RecipeCard">
+<div id="RecipeTitle">
+ <a id="recipe2">
 <h1>
     Texas Caviar 
-    </h1>
-    </a>
+    </h1> <img id="foodpic" class="appetizer" src="img/TexasCaviar.jpg">
+ </a>
+    </div>
+ <div class="ingredientlist">
+    
 <p>
     <em>
         Cowpeas into caviar. Anything is possible in Texas. This simple dish proves 
@@ -97,9 +115,11 @@ the perfection of canned black-eyed peas. The onion and bell pepper provide
 a delicate crunch, the vinegar a slight tang. For picnics, diets, our Three 
 Salad Lunch Special or good luck on New Year’s Day, you really ought to get 
 enough practice on this one to make it easy and frequent.
+
     </em>
     </p>
-    
+   </div>
+ <div class="ingredientlist"> 
     <ul> 
 <li>
     <span class="quantity">2 quarts</span><span class="ingredient">canned black-eyed peas, drained</span>
@@ -120,9 +140,14 @@ enough practice on this one to make it easy and frequent.
     <span class="quantity">2 tsp.</span><span class="ingredient">garlic, minced<em> (1 tsp. is enough for some folks)</em></span>
         </li>
 <li>
-    <span class="quantity">1 tbs.</span><span class="ingredient">Vegetable Seasoning<em> (see Cookbook page 39</em></span>
+    <span class="quantity">1 tbs.</span><span class="ingredient">Vegetable Seasoning<em> (see Cookbook page 39)</em></span>
+        </li>
+        <li>
+    <span class="quantity"><em>Optional</em></span><span class="ingredient">tomatoes, red pepers, feta cheese, black beans, cilantro</span>
         </li>
 </ul>
+     </div>
+<div id="RecipeInstr">
 <ol>
     <li>Mix all ingredients well.</li>
 <li>Marinate 8 to 12 hours, stirring a few times to coat all ingredients well.</li>
@@ -130,13 +155,22 @@ enough practice on this one to make it easy and frequent.
 <p>
     <em><strong>Makes 2 1/2 quarts.</strong></em>
     </p>
+        </div>
+    </div>
+    </div> 
 <hr/>
-<a id="recipe3">
-<h1>
+<div id="Recipe">
+<div class="RecipeCard">
+<div id="RecipeTitle">
+     <a id="recipe3">
+    <h1>
      Babinka's Potato Salad 
     </h1>
+    <img id="foodpic" class="appetizer" src="img/PotatoSalad.jpg">
     </a>
-<ul> 
+    </div>
+ <div class="ingredientlist">
+     <ul> 
 <li>
     <span class="quantity">4</span><span class="ingredient">Large potatoes (to be diced after boiling)</span>
     </li>
@@ -159,8 +193,10 @@ enough practice on this one to make it easy and frequent.
     <span class="quantity">dash</span><span class="ingredient">Lowrey's (or other) Season Salt, to taste</span>
     </li>
 </ul>
-<ol>
-<li>
+</div>
+<div id="RecipeInstr">
+    <ol>
+        <li>
     Peel the potatoes, boil them for forty minutes or slightly more. <em>They should be firm enough to dice them (without mashing them).</em>
     </li>
 <li>
@@ -176,5 +212,8 @@ enough practice on this one to make it easy and frequent.
     Adjust the mayo, mustard, and salt, to taste.
     </li>
     </ol>
+    </div>
+    </div>
+    </div> 
     </body>
 </html>
